@@ -2,3 +2,16 @@
 	display: flex;
 	gap: 1rem;
 }
+
+.searchForm {
+	display: flex;
+}
+
+.searchSubmit,
+.searchInput {
+	font-family:
+		Courier New,
+		Courier,
+		monospace;
+	text-transform: uppercase;
+}

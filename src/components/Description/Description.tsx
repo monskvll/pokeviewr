@@ -1,8 +1,9 @@
 import "./Description.css";
 
 const getTypes = (pokeData) => {
+	console.log(pokeData);
 	const types = pokeData?.types || [];
-	return types.map((typeInfo) => typeInfo.type.name).join(" - ");
+	return types.map((typeInfo) => typeInfo.type.name).join(" • ");
 };
 
 const formatHeight = (height) => {

@@ -5,17 +5,22 @@ import "./Header.css";
 const Header = ({ handleSubmit }) => {
 	return (
 		<div className="headerWrapper">
-			<LoadingCircle />
-			<form onSubmit={handleSubmit}>
+			<form
+				onSubmit={handleSubmit}
+				className="searchForm"
+			>
 				<input
 					type="search"
 					id="pokesearch"
 					placeholder="Search Pokémon..."
+					className="searchInput"
 				/>
 				<input
 					type="submit"
-					value="Search..."
+					value="Search"
+					className="searchSubmit"
 				/>
+				<LoadingCircle />
 			</form>
 		</div>
 	);
