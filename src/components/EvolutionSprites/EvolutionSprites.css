@@ -1,0 +1,8 @@
+.noEvolutionsText {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	color: var(--color-dark-rust);
+	font-weight: bold;
+}

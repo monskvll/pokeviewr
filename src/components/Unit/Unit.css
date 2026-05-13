@@ -1,0 +1,21 @@
+.unitWrapper {
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.spriteWrapper {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 10%;
+	background-color: var(--color-ash);
+	border: 0.4rem solid var(--color-dark-ash);
+	display: flex;
+}
+
+.evolutionSpritesWrapper {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}

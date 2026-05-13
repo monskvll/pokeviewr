@@ -1,0 +1,18 @@
+.descriptionWrapper {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.description {
+	width: fit-content;
+	height: 20rem;
+	overflow-y: scroll;
+	border-radius: 1rem;
+	background-color: var(--color-ash);
+	border: 0.4rem solid var(--color-dark-ash);
+	padding: 0.5rem;
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+}

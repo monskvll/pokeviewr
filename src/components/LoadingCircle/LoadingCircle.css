@@ -1,0 +1,21 @@
+.baseCircle {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	border: 0.2rem solid var(--color-dark-steel);
+	animation: spin 1s linear infinite;
+	background-color: var(--color-steel);
+	position: relative;
+}
+
+.movingCircle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: var(--color-ash);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: move 1s linear infinite;
+}
